@@ -1,6 +1,9 @@
 package online;
 
-public class Test1 {	
+import java.util.ArrayList;
+import java.util.List;
+
+public class ADefin {	
 	
 	    public ListNode sortList(ListNode head) {
 	     if(head==null||head.next==null){
@@ -83,6 +86,17 @@ public class Test1 {
 
 }
 
+class UndirectedGraphNode {
+	int label;
+	List<UndirectedGraphNode> neighbors;
+	
+	UndirectedGraphNode(int x){
+		label=x;
+		neighbors=new ArrayList<UndirectedGraphNode>();
+		
+	}
+}
+
 class ListNode {
 	int val;
 	ListNode next;
@@ -101,5 +115,22 @@ class TreeNode {
 	TreeNode(int x) {
 		val = x;
 	}
+	
 }
+
+
+class TreeLinkNode {
+	      int val;
+	     TreeLinkNode left, right, next;
+	     TreeLinkNode(int x) {
+	    	 val = x; }
+}
+
+
+
+
+
+
+
+
 
