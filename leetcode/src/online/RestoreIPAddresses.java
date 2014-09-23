@@ -19,6 +19,7 @@ public class RestoreIPAddresses {
 			res.add(item + s);
 			return;
 		}
+		
 		for(int i=0;i<3&&i<s.length()-1;i++){
 			String substr=s.substring(0,i+1);
 			if(isValid(substr)){
