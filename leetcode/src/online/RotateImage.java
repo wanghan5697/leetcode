@@ -14,7 +14,7 @@ public class RotateImage {
 		//  c|d
 		
 		for (int i = 0;i<n/2;i++){
-			for(int j=0;j<Math.ceil((double)n/2.0);j++){				
+			for(int j=0;j<Math.ceil(n/2.0);j++){				
 				int temp = matrix [i][j];
 				//c-->a
 				matrix[i][j]=matrix[n-j-1][i];

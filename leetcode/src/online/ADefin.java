@@ -137,6 +137,13 @@ class Interval{
 		end=e;
 	}
 }
+class RandomListNode{
+	int label;
+	RandomListNode next,random;
+	RandomListNode(int x){
+		this.label=x;
+	}
+}
 
 
 

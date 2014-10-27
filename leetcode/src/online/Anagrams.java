@@ -32,7 +32,7 @@ public class Anagrams {
         
         Iterator<ArrayList<String>> iter = map.values().iterator();
         while(iter.hasNext()){
-        	ArrayList<String> item = (ArrayList<String>)iter.next();
+        	ArrayList<String> item = iter.next();
         	if(item.size()>1)
         		res.addAll(item);
         }

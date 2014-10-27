@@ -1,6 +1,6 @@
 package online;
 
-import java.util.*;
+import java.util.ArrayList;
 
 public class BinaryTreeLevelOrderTraversal {
 	//分层遍历二叉树

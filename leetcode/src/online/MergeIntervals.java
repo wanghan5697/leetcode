@@ -32,6 +32,7 @@ public class MergeIntervals {
 		return res;
 	}
 	class IntervalComparator implements Comparator<Interval>{
+		@Override
 		public int compare(Interval l1,Interval l2){
 			return l1.start-l2.start;
 		}

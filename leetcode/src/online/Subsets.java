@@ -2,8 +2,6 @@ package online;
 
 import java.util.ArrayList;
 
-import java.util.Arrays;
-
 public class Subsets {
 	 public ArrayList<ArrayList<Integer>> subsets(int[] S) {
     
